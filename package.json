@@ -1,0 +1,20 @@
+{
+  "name": "mocha-calc-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "nyc": {
+    "reporter": ["html","text"],
+    "all": true
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.7.3",
+    "nyc": "^17.0.0"
+  }
+}
